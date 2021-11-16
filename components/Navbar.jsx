@@ -26,6 +26,9 @@ const Navbar = () => {
         <li>
           <Link to="react">React</Link>
         </li>
+        <li>
+          <Link to="mysql">MySql</Link>
+        </li>
       </ul>
     </nav>
   );

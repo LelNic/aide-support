@@ -1,13 +1,13 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Css from './components/Css';
-import Dom from './components/Dom';
-import Home from './components/Home';
-import Html from './components/Html';
-import Navbar from './components/Navbar';
-import Javascript from './components/Javascript';
-import Reat from './components/Reat';
-
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Css from "../components/Css";
+import Dom from "../components/Dom";
+import Home from "../components/Home";
+import Html from "../components/Html";
+import Navbar from "../components/Navbar";
+import Javascript from "../components/Javascript";
+import Reat from "../components/Reat";
+import Mysql from "../components/Mysql";
 
 export default function App() {
   return (
@@ -15,26 +15,29 @@ export default function App() {
       <div>
         <Navbar />
         <Switch>
-        <Route path="/home"/>
+          <Route exact path="/home">
             <Home />
           </Route>
-          <Route path="/css"/>
+          <Route exact path="/css">
             <Css />
           </Route>
-          <Route path="/dom">
-            <Dom/>
+          <Route exact path="/dom">
+            <Dom />
           </Route>
-          <Route path="/github">
+          <Route exact path="/github">
             <Github />
           </Route>
-          <Route path="/html">
+          <Route exact path="/html">
             <Html />
           </Route>
-          <Route path="/javascript">
+          <Route exact path="/javascript">
             <Javascript />
           </Route>
-          <Route path="/react">
-            <Reat/>
+          <Route exact path="/react">
+            <Reat />
+          </Route>
+          <Route exact path="/mysql">
+            <Mysql />
           </Route>
         </Switch>
       </div>
