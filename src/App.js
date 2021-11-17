@@ -1,13 +1,14 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Css from "../components/Css";
-import Dom from "../components/Dom";
-import Home from "../components/Home";
-import Html from "../components/Html";
-import Navbar from "../components/Navbar";
-import Javascript from "../components/Javascript";
-import Reat from "../components/Reat";
-import Mysql from "../components/Mysql";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Css from "./components/Css";
+import Dom from "./components/Dom";
+import Github from "./components/Github";
+import Home from "./components/Home";
+import Html from "./components/Html";
+import Navbar from "./components/Navbar";
+import Javascript from "./components/Javascript";
+import Reat from "./components/Reat";
+import Mysql from "./components/Mysql";
 
 export default function App() {
   return (
