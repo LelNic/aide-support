@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Css from "./components/Css";
 import Dom from "./components/Dom";
@@ -13,7 +14,7 @@ import Mysql from "./components/Mysql";
 export default function App() {
   return (
     <Router>
-      <div>
+      <div className="list">
         <Navbar />
         <Switch>
           <Route exact path="/home">
