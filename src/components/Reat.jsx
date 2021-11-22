@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import "./Reat.css";
 
 const Reat = () => {
   return <h2>React</h2>;

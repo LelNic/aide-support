@@ -14,35 +14,77 @@ const Navbar = () => {
     <nav>
       <ul className="tab">
         <li>
-          <Link to="/home">Home</Link>
-          <img src={home} alt="" />
+          <Link to="/home"></Link>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="/home">
+                <img src={home} alt="" width="60" height="48" />
+              </a>
+            </div>
+          </nav>
         </li>
         <li>
-          <Link to="/html">Html</Link>
-          <img src={html} alt="" />
+          <Link to="/html"></Link>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="/home">
+                <img src={html} alt="" width="60" height="48" />
+              </a>
+            </div>
+          </nav>
         </li>
         <li>
-          <Link to="/css">CSS</Link>
-          <img src={css} alt="" />
+          <Link to="/css"></Link>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="/css">
+                <img src={css} alt="" width="43" height="48" />
+              </a>
+            </div>
+          </nav>
+        </li>
+        <li>
+          <Link to="javascript"></Link>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="/javascript">
+                <img src={javascript} alt="" width="70" height="58" />
+              </a>
+            </div>
+          </nav>
         </li>
         <li>
           <Link to="/dom">DOM</Link>
         </li>
         <li>
-          <Link to="javascript">JavaScript</Link>
-          <img src={javascript} alt="" />
+          <Link to="react"></Link>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="/react">
+                <img src={reat} alt="" width="60" height="48" />
+              </a>
+            </div>
+          </nav>
         </li>
         <li>
-          <Link to="react">React</Link>
-          <img src={reat} alt="" />
+          <Link to="/github"></Link>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="/github">
+                <img src={github} alt="" width="60" height="48" />
+              </a>
+            </div>
+          </nav>
         </li>
         <li>
-          <Link to="/github">GitHub</Link>
-          <img src={github} alt="" />
-        </li>
-        <li>
-          <Link to="mysql">MySql</Link>
-          <img src={mysql} alt="" />
+          <Link to="mysql"></Link>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="/mysql">
+                <img src={mysql} alt="" width="60" height="48" />
+              </a>
+            </div>
+          </nav>
         </li>
       </ul>
     </nav>
