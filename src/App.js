@@ -15,8 +15,8 @@ import Mysql from "./components/Mysql/Mysql";
 export default function App() {
     return (
         <Router>
-            <div className="list">
-                <Navbar />
+            <Navbar />
+            <main className="list">
                 <Switch>
                     <Route exact path="/home">
                         <Home />
@@ -43,7 +43,7 @@ export default function App() {
                         <Mysql />
                     </Route>
                 </Switch>
-            </div>
+            </main>
         </Router>
     );
 }
