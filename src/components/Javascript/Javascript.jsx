@@ -1,5 +1,5 @@
 import React from "react";
-import "../index.css";
+import "./Javascript.css";
 
 const Javascript = () => {
   return <h2>JavaScript</h2>;

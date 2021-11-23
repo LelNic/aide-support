@@ -1,22 +1,16 @@
 import React from "react";
 import "./index.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Css from "./components/Css";
-import Dom from "./components/Dom";
-import Github from "./components/Github";
-import Home from "./components/Home";
-import Html from "./components/Html";
-import Navbar from "./components/Navbar";
-import Javascript from "./components/Javascript";
-import Reat from "./components/Reat";
-import Mysql from "./components/Mysql";
-// import tuyau from "./asset/image/tuyau.png"; 
-
-// const img = () => {
-//   <div>
-//     <img src="./src/image/tuyau.png" alt="" />
-//   </div>
-// };
+import Css from "./components/Css/Css";
+import Dom from "./components/Dom/Dom";
+import Github from "./components/Github/Github";
+import Home from "./components/Home/Home";
+import Html from "./components/Html/Html";
+import Navbar from "./components/Navbar/Navbar";
+import Javascript from "./components/Javascript/Javascript";
+import Reat from "./components/Reat/Reat";
+import Mysql from "./components/Mysql/Mysql";
+import tuyau from "../src/asset/tuyau.png";
 
 export default function App() {
   return (
@@ -51,5 +45,5 @@ export default function App() {
         </Switch>
       </div>
     </Router>
-   );
+  );
 }
