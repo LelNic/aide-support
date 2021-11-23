@@ -1,25 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./index.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Css from "./components/Css/Css";
+import Dom from "./components/Dom/Dom";
+import Github from "./components/Github/Github";
+import Home from "./components/Home/Home";
+import Html from "./components/Html/Html";
+import Navbar from "./components/Navbar/Navbar";
+import Javascript from "./components/Javascript/Javascript";
+import Reat from "./components/Reat/Reat";
+import Mysql from "./components/Mysql/Mysql";
+import tuyau from "../src/asset/tuyau.png";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="list">
+        <Navbar />
+        <Switch>
+          <Route exact path="/home">
+            <Home />
+          </Route>
+          <Route exact path="/css">
+            <Css />
+          </Route>
+          <Route exact path="/dom">
+            <Dom />
+          </Route>
+          <Route exact path="/github">
+            <Github />
+          </Route>
+          <Route exact path="/html">
+            <Html />
+          </Route>
+          <Route exact path="/javascript">
+            <Javascript />
+          </Route>
+          <Route exact path="/react">
+            <Reat />
+          </Route>
+          <Route exact path="/mysql">
+            <Mysql />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
-
-export default App;

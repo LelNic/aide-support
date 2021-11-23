@@ -1,0 +1,16 @@
+body {
+  background-color: hsl(204, 77%, 59%);
+}
+
+h2 {
+  text-align: center;
+}
+
+pre {
+  background-color: black;
+  color: aqua;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: 20rem;
+  margin-left: 7rem;
+}
