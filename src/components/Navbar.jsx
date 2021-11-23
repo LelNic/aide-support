@@ -18,7 +18,7 @@ const Navbar = () => {
           <nav class="navbar navbar-light bg-light">
             <div class="container">
               <a class="navbar-brand" href="/home">
-                <img src={home} alt="" width="60" height="48" />
+                <img src={home} alt="" width="80" height="60" />
               </a>
             </div>
           </nav>
@@ -28,7 +28,7 @@ const Navbar = () => {
           <nav class="navbar navbar-light bg-light">
             <div class="container">
               <a class="navbar-brand" href="/home">
-                <img src={html} alt="" width="60" height="48" />
+                <img src={html} alt="" width="80" height="60" />
               </a>
             </div>
           </nav>
@@ -38,7 +38,7 @@ const Navbar = () => {
           <nav class="navbar navbar-light bg-light">
             <div class="container">
               <a class="navbar-brand" href="/css">
-                <img src={css} alt="" width="43" height="48" />
+                <img src={css} alt="" width="58" height="60" />
               </a>
             </div>
           </nav>
@@ -48,7 +48,7 @@ const Navbar = () => {
           <nav class="navbar navbar-light bg-light">
             <div class="container">
               <a class="navbar-brand" href="/javascript">
-                <img src={javascript} alt="" width="70" height="58" />
+                <img src={javascript} alt="" width="82" height="70" />
               </a>
             </div>
           </nav>
@@ -61,7 +61,7 @@ const Navbar = () => {
           <nav class="navbar navbar-light bg-light">
             <div class="container">
               <a class="navbar-brand" href="/react">
-                <img src={reat} alt="" width="60" height="48" />
+                <img src={reat} alt="" width="80" height="60" />
               </a>
             </div>
           </nav>
@@ -71,7 +71,7 @@ const Navbar = () => {
           <nav class="navbar navbar-light bg-light">
             <div class="container">
               <a class="navbar-brand" href="/github">
-                <img src={github} alt="" width="60" height="48" />
+                <img src={github} alt="" width="80" height="60" />
               </a>
             </div>
           </nav>
@@ -81,7 +81,7 @@ const Navbar = () => {
           <nav class="navbar navbar-light bg-light">
             <div class="container">
               <a class="navbar-brand" href="/mysql">
-                <img src={mysql} alt="" width="60" height="48" />
+                <img src={mysql} alt="" width="80" height="60" />
               </a>
             </div>
           </nav>

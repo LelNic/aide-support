@@ -10,3 +10,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+.h1 {
+  font-size: large;
+  color: aqua;
+}
+
+.pre {
+  background-color: black;
+  color: aqua;
+}
