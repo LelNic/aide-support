@@ -10,6 +10,13 @@ import Navbar from "./components/Navbar";
 import Javascript from "./components/Javascript";
 import Reat from "./components/Reat";
 import Mysql from "./components/Mysql";
+// import tuyau from "./asset/image/tuyau.png"; 
+
+// const img = () => {
+//   <div>
+//     <img src="./src/image/tuyau.png" alt="" />
+//   </div>
+// };
 
 export default function App() {
   return (
