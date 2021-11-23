@@ -7,12 +7,11 @@ import css from "../../asset/css.png";
 import javascript from "../../asset/js.png";
 import reat from "../../asset/react-logo.png";
 // import github from "../../asset/Octocat.png";
-import git from "../../asset/octo.png";
+import github from "../../asset/octo.png";
 import mysql from "../../asset/mysql.png";
 import Logo from "../../asset/wds.svg";
 
 const Navbar = () => {
-
     return (
         <nav>
             <ul className="tab">
@@ -57,7 +56,6 @@ const Navbar = () => {
             </ul>
         </nav>
     );
- 
 };
 
 export default Navbar;
