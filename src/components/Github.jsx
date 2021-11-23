@@ -48,9 +48,18 @@ const Github = () => {
         <p>Annule tous les commits en les conservants local (commande a taper sur le terminal)</p>
         <pre>git reset[commit]</pre>
         <p>supprime tous l'historique et les modification effectues apres les commits(commande a taper sur le terminal)</p>
-        <pre>git reset[commit]</pre>
+        <pre>git reset hard[commit]</pre>
         <p>Restaure des fichiers de l'arbre de travail(commande a taper sur le terminal)</p>
         <pre>git checkout</pre>
+        <p>cree un commit qui en annule un autre le commit precedent n'est pas effacer(commande a taper sur le terminal)</p>
+        <pre>git revert</pre>
+        <p>cree un commit qui remplace le precedent(commande a taper sur le terminal)</p>
+        <pre>git commit -- amend</pre>
+        <p>
+          remet a zero tous le commit effectué apret le commit nommé le parametre "hard efface aussi les fichiers(commande a
+          taper sur le terminal)
+        </p>
+        <pre>git reset</pre>
       </section>
     </div>
   );

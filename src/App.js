@@ -1,15 +1,3 @@
-
-import './App.css';
-import Sql from "./components/Sql"
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-     <p>plop</p>
-      </header>
-      <Sql />
-    </div>
-
 import React from "react";
 import "./index.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -63,6 +51,5 @@ export default function App() {
         </Switch>
       </div>
     </Router>
- main
-  );
+   );
 }
