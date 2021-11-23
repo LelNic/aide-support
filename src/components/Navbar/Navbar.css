@@ -1,0 +1,18 @@
+.tab {
+  background-color: cadetblue;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  font-size: 2rem;
+  justify-content: space-around;
+  margin-top: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* ul li img {
+  width: 50%;
+  height: 50%;
+} */

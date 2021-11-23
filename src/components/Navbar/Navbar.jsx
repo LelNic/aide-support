@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../index.css";
-import home from "../asset/home.png";
-import html from "../asset/html.png";
-import css from "../asset/css.png";
-import javascript from "../asset/js.png";
-import reat from "../asset/react-logo.png";
-import github from "../asset/Octocat.png";
-import mysql from "../asset/mysql.png";
+import "./Navbar.css";
+import home from "../../asset/home.png";
+import html from "../../asset/html.png";
+import css from "../../asset/css.png";
+import javascript from "../../asset/js.png";
+import reat from "../../asset/react-logo.png";
+import github from "../../asset/Octocat.png";
+import mysql from "../../asset/mysql.png";
 
 const Navbar = () => {
   return (
