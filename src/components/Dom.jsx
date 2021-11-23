@@ -1,5 +1,5 @@
 import React from "react";
-import "./Dom.css";
+import "../index.css";
 
 const Dom = () => {
   return <h2>Dom</h2>;

@@ -1,12 +1,12 @@
 import React from "react";
-import "./Github.css";
+import "../index.css";
 
 const Github = () => {
   return (
     <div>
       <h2>GitHub</h2>
-      <h3> Les Bases</h3>
       <section>
+        <h3> Les Bases</h3>
         <p> initie un depot Github en "local"(commande a taper sur le terminal ou VsCode)</p>
         <pre>git init</pre>
         <p> Ajoute un ou des fichiers a l'index Git.(commande a taper sur le terminal)</p>

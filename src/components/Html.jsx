@@ -1,5 +1,5 @@
 import React from "react";
-import "./Html.css";
+import "../index.css";
 
 const Html = () => {
   return <h2>Html</h2>;
