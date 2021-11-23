@@ -1,10 +1,13 @@
 import React from "react";
 import "./Github.css";
+import github from "../../asset/Octocat.png";
+import merge from "../../asset/merge.png";
 
 const Github = () => {
     return (
         <>
             <h1>GitHub</h1>
+            <img src={github} alt="Logo CSS" />
             <h2> Les Bases</h2>
             <section>
                 <p> Initie un depot Github en "local"(commande a taper sur le terminal ou VsCode)</p>
@@ -21,7 +24,7 @@ const Github = () => {
                 <p> Permet de pousser une branche d'un depot local vers le remote.(commande a taper sur le terminal)</p>
                 <pre>git push origin (nom de branche)</pre>
                 <p>
-                    telecharger un depot distant,puis met a jour immediatement le depot localqui corespond a ce
+                    npm telecharger un depot distant,puis met a jour immediatement le depot localqui corespond a ce
                     contenue.(commande a taper sur le terminal)
                 </p>
                 <pre>git pull origin (nom de branche)</pre>
@@ -29,6 +32,7 @@ const Github = () => {
                 <pre>git clone git@github.com:plop/projet1.git</pre>
             </section>
             <h2>Les Branches</h2>
+            <img src={merge} alt="Logo CSS" />
             <section>
                 <p> Creation d'une nouvelle branche(commande a taper sur le terminal)</p>
                 <pre>git branch(nom de branche)</pre>
