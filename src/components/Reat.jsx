@@ -1,5 +1,4 @@
 import React from "react";
-import "./Reat.css";
 import "../index.css";
 
 const Reat = () => {

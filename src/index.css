@@ -1,5 +1,5 @@
 body {
-  background-color: cornflowerblue;
+  background-color: rgb(138, 198, 247);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
@@ -11,12 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.h1 {
-  font-size: large;
+h1 {
+  font-size: 10rem;
   color: aqua;
 }
 
-.pre {
+h2 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+h3 {
+  margin-left: 3.5rem;
+}
+
+section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+section p {
+  margin-left: 3.5rem;
+}
+
+pre {
   background-color: black;
   color: aqua;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: 20rem;
+  margin-left: 7rem;
+}
+
+.tab {
+  background-color: cadetblue;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  font-size: 2rem;
+  justify-content: space-around;
+  margin-top: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
