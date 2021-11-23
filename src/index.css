@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&family=Rajdhani:wght@300&family=Roboto+Mono:ital,wght@0,100;1,100&display=swap");
+
 /*
 1. RESET
 2. Blocks
@@ -31,7 +33,6 @@ h5,
 h6,
 p,
 blockquote,
-pre,
 a,
 abbr,
 acronym,
@@ -141,8 +142,52 @@ table {
     border-spacing: 0;
 }
 
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
 /* 2 Block */
+
+main {
+    padding: 2vw;
+}
+
+section {
+    padding: 2vw;
+}
+
 /* 3 inline */
+
+h1 {
+    font-size: 4vw;
+    font-family: "Roboto Mono", monospace;
+    padding: 1vh;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2vw;
+    font-family: "Roboto Mono", monospace;
+    padding: 0.5vh;
+}
+
+p {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1vw;
+}
+
+pre {
+    background-color: #0f1214;
+    color: #f5f2e1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    margin-right: 20rem;
+    margin-left: 7rem;
+}
+
 /* 4 ID */
 /* 5 Classes */
 
