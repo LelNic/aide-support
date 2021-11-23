@@ -8,42 +8,42 @@ import Home from "./components/Home/Home";
 import Html from "./components/Html/Html";
 import Navbar from "./components/Navbar/Navbar";
 import Javascript from "./components/Javascript/Javascript";
-import Reat from "./components/Reat/Reat";
+import Reactjs from "./components/Reactjs/Reactjs";
 import Mysql from "./components/Mysql/Mysql";
 // import tuyau from "../src/asset/tuyau.png";
 
 export default function App() {
-  return (
-    <Router>
-      <div className="list">
-        <Navbar />
-        <Switch>
-          <Route exact path="/home">
-            <Home />
-          </Route>
-          <Route exact path="/css">
-            <Css />
-          </Route>
-          <Route exact path="/dom">
-            <Dom />
-          </Route>
-          <Route exact path="/github">
-            <Github />
-          </Route>
-          <Route exact path="/html">
-            <Html />
-          </Route>
-          <Route exact path="/javascript">
-            <Javascript />
-          </Route>
-          <Route exact path="/react">
-            <Reat />
-          </Route>
-          <Route exact path="/mysql">
-            <Mysql />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
-  );
+    return (
+        <Router>
+            <div className="list">
+                <Navbar />
+                <Switch>
+                    <Route exact path="/home">
+                        <Home />
+                    </Route>
+                    <Route exact path="/css">
+                        <Css />
+                    </Route>
+                    <Route exact path="/dom">
+                        <Dom />
+                    </Route>
+                    <Route exact path="/github">
+                        <Github />
+                    </Route>
+                    <Route exact path="/html">
+                        <Html />
+                    </Route>
+                    <Route exact path="/javascript">
+                        <Javascript />
+                    </Route>
+                    <Route exact path="/react">
+                        <Reactjs />
+                    </Route>
+                    <Route exact path="/mysql">
+                        <Mysql />
+                    </Route>
+                </Switch>
+            </div>
+        </Router>
+    );
 }
