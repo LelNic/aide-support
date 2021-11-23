@@ -1,10 +1,13 @@
 import React from "react";
 import "./Github.css";
+import merge from "../../asset/merge.png";
+import github from "../../asset/Octocat.png";
 
 const Github = () => {
   return (
     <div>
       <h2>GitHub</h2>
+      <img className="img" src={github} alt="" width="400" height="333" />
       <section>
         <h3> Les Bases</h3>
         <p> initie un depot Github en "local"(commande a taper sur le terminal ou VsCode)</p>
@@ -30,6 +33,7 @@ const Github = () => {
       </section>
       <section>
         <h3>Les Branches</h3>
+        <img src={merge} alt="" width="112" height="140" />
         <p> creation d'une nouvelle branche(commande a taper sur le terminal)</p>
         <pre>git branch(nom de branche)</pre>
         <p>liste des branches(commande a taper sur le terminal)</p>
