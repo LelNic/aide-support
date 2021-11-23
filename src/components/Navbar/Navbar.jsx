@@ -6,7 +6,8 @@ import html from "../../asset/html.png";
 import css from "../../asset/css.png";
 import javascript from "../../asset/js.png";
 import reat from "../../asset/react-logo.png";
-import github from "../../asset/Octocat.png";
+// import github from "../../asset/Octocat.png";
+import git from "../../asset/octo.png";
 import mysql from "../../asset/mysql.png";
 
 const Navbar = () => {
@@ -71,7 +72,7 @@ const Navbar = () => {
           <nav class="navbar navbar-light bg-light">
             <div class="container">
               <a class="navbar-brand" href="/github">
-                <img src={github} alt="" width="80" height="60" />
+                <img src={git} alt="" width="65" height="65" />
               </a>
             </div>
           </nav>

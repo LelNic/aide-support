@@ -14,3 +14,7 @@ pre {
   margin-right: 20rem;
   margin-left: 7rem;
 }
+
+img {
+  justify-content: center;
+}

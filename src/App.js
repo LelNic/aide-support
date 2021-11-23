@@ -10,7 +10,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Javascript from "./components/Javascript/Javascript";
 import Reat from "./components/Reat/Reat";
 import Mysql from "./components/Mysql/Mysql";
-import tuyau from "../src/asset/tuyau.png";
+// import tuyau from "../src/asset/tuyau.png";
 
 export default function App() {
   return (
