@@ -1,94 +1,60 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import home from "../../asset/home.png";
+// import home from "../../asset/home.png";
 import html from "../../asset/html.png";
 import css from "../../asset/css.png";
 import javascript from "../../asset/js.png";
 import reat from "../../asset/react-logo.png";
 import github from "../../asset/Octocat.png";
 import mysql from "../../asset/mysql.png";
+import Logo from "../../asset/wds.svg";
 
 const Navbar = () => {
-  return (
-    <nav>
-      <ul className="tab">
-        <li>
-          <Link to="/home"></Link>
-          <nav class="navbar navbar-light bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="/home">
-                <img src={home} alt="" width="80" height="60" />
-              </a>
-            </div>
-          </nav>
-        </li>
-        <li>
-          <Link to="/html"></Link>
-          <nav class="navbar navbar-light bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="/home">
-                <img src={html} alt="" width="80" height="60" />
-              </a>
-            </div>
-          </nav>
-        </li>
-        <li>
-          <Link to="/css"></Link>
-          <nav class="navbar navbar-light bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="/css">
-                <img src={css} alt="" width="58" height="60" />
-              </a>
-            </div>
-          </nav>
-        </li>
-        <li>
-          <Link to="javascript"></Link>
-          <nav class="navbar navbar-light bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="/javascript">
-                <img src={javascript} alt="" width="82" height="70" />
-              </a>
-            </div>
-          </nav>
-        </li>
-        <li>
-          <Link to="/dom">DOM</Link>
-        </li>
-        <li>
-          <Link to="react"></Link>
-          <nav class="navbar navbar-light bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="/react">
-                <img src={reat} alt="" width="80" height="60" />
-              </a>
-            </div>
-          </nav>
-        </li>
-        <li>
-          <Link to="/github"></Link>
-          <nav class="navbar navbar-light bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="/github">
-                <img src={github} alt="" width="80" height="60" />
-              </a>
-            </div>
-          </nav>
-        </li>
-        <li>
-          <Link to="mysql"></Link>
-          <nav class="navbar navbar-light bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="/mysql">
-                <img src={mysql} alt="" width="80" height="60" />
-              </a>
-            </div>
-          </nav>
-        </li>
-      </ul>
-    </nav>
-  );
+    return (
+        <nav>
+            <ul className="tab">
+                <Link to="/home">
+                    <li>
+                        <img src={Logo} className="logo" alt="logo du site Web Dev Support" />
+                    </li>
+                </Link>
+                <Link to="/html">
+                    <li>
+                        <img src={html} alt="Logo Html" />
+                    </li>
+                </Link>
+                <Link to="/css">
+                    <li>
+                        <img src={css} alt="Logo CSS" />
+                    </li>
+                </Link>
+                <Link to="javascript">
+                    <li>
+                        <img src={javascript} alt="LogoJavascript" />
+                    </li>
+                </Link>
+                <Link to="/dom">
+                    <li>DOM</li>
+                </Link>
+                <Link to="react">
+                    <li>
+                        <img src={reat} alt="Logo React" />
+                    </li>
+                </Link>
+                <Link to="/github">
+                    <li>
+                        <img src={github} alt="Logo Github" />
+                    </li>
+                </Link>
+                <Link to="mysql">
+                    <li>
+                        <img src={mysql} alt="Logo Mysql" />
+                    </li>
+                </Link>
+            </ul>
+        </nav>
+    );
 };
 
 export default Navbar;

@@ -1,15 +1,16 @@
 .tab {
-  background-color: cadetblue;
-  display: flex;
-  list-style: none;
-  text-decoration: none;
-  font-size: 2rem;
-  justify-content: space-around;
-  margin-top: 4rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+    background-color: cadetblue;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vh;
+}
+
+.tab img {
+    max-width: 100%;
+    height: 8vh;
+    object-fit: contain;
 }
 
 /* ul li img {

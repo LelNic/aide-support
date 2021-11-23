@@ -1,0 +1,32 @@
+<svg
+    id="Calque_1"
+    data-name="Calque 1"
+    xmlns="http://www.w3.org/2000/svg"
+    width="507.6"
+    height="695.22"
+    viewBox="0 0 507.6 695.22"
+>
+    <defs>
+        <style>
+            .cls-1,
+            .cls-2 {
+                font-size: 600px;
+            }
+            .cls-1,
+            .cls-2,
+            .cls-3 {
+                font-family: MyriadPro-Regular, Myriad Pro;
+            }
+            .cls-2 {
+                fill: #f9b233;
+            }
+            .cls-3 {
+                font-size: 300px;
+                fill: #36a9e1;
+            }
+        </style>
+    </defs>
+    <text class="cls-1" transform="translate(0 545.22)">W</text>
+    <text class="cls-2" transform="translate(62.01 502.2)">D</text>
+    <text class="cls-3" transform="translate(186.03 411.7)">S</text>
+</svg>
