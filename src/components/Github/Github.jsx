@@ -1,4 +1,4 @@
-import React, { useState, useEffect, createElement } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import github from "../../asset/Octocat.png";
 import merge from "../../asset/merge.png";

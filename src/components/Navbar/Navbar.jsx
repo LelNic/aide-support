@@ -41,7 +41,7 @@ const Navbar = () => {
                         <img src={reat} alt="Logo React" />
                     </li>
                 </Link>
-                <Link to="/github">
+                <Link to="/git">
                     <li>
                         <img src={github} alt="Logo Github" />
                     </li>

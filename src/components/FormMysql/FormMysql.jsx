@@ -1,8 +1,8 @@
 import axios from "axios";
 import { useForm } from "react-hook-form";
-import "./Form.css";
+import "./FormMysql.css";
 
-const Form = () => {
+const FormMysql = () => {
     const {
         register,
         handleSubmit,
@@ -10,7 +10,7 @@ const Form = () => {
     } = useForm();
     const onSubmit = (data) => {
         axios
-            .post(`https://webdev-support.herokuapp.com/api/${data.lang}s`, {
+            .post(`https://webdev-support.herokuapp.com/api/mysqls`, {
                 name: data.name,
                 text: data.text,
                 code: data.code,
@@ -26,22 +26,16 @@ const Form = () => {
 
     return (
         <>
-            <h1>Formulaire d'ajout de données</h1>
+            <h1>Formulaire d'ajout Mysql</h1>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <label htmlFor="nom">Nom de l'entrée</label>
                 <input placeholder="Nom" {...register("name", { required: true })} />
                 {errors.text && <span className="error">Ce Champ est requis</span>}
-                <label htmlFor="category">Langage</label>
-                <select {...register("lang")}>
-                    <option value="html">Html</option>
-                    <option value="csse">Css</option>
-                    <option value="javascript">Javascript</option>
-                    <option value="react">React</option>
-                    <option value="github">Github</option>
-                    <option value="mysql">Mysql</option>
-                </select>
                 <label htmlFor="category">Catégorie</label>
-                <input placeholder="Catégorie" {...register("category", { required: true })} />
+                <select {...register("category")}>
+                    <option value="Bases">Bases</option>
+                    <option value="CRUD">CRUD</option>
+                </select>
                 {errors.text && <span className="error">Ce Champ est requis</span>}
                 <label htmlFor="text">Texte descriptif</label>
                 <textarea placeholder="Texte explicatif" {...register("text", { required: true })} />
@@ -56,4 +50,4 @@ const Form = () => {
     );
 };
 
-export default Form;
+export default FormMysql;
