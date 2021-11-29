@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Javascript from "./components/Javascript/Javascript";
 import Reactjs from "./components/Reactjs/Reactjs";
 import Mysql from "./components/Mysql/Mysql";
+import Form from "./components/Form/Form";
 // import tuyau from "../src/asset/tuyau.png";
 
 export default function App() {
@@ -18,7 +19,7 @@ export default function App() {
             <Navbar />
             <main className="list">
                 <Switch>
-                    <Route exact path="/home">
+                    <Route exact path="/">
                         <Home />
                     </Route>
                     <Route exact path="/css">
@@ -41,6 +42,9 @@ export default function App() {
                     </Route>
                     <Route exact path="/mysql">
                         <Mysql />
+                    </Route>
+                    <Route path="/add">
+                        <Form />
                     </Route>
                 </Switch>
             </main>

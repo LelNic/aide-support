@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <nav>
             <ul className="tab">
-                <Link to="/home">
+                <Link to="/">
                     <li>
                         <img src={Logo} className="logo" alt="logo du site Web Dev Support" />
                     </li>

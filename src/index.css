@@ -9,11 +9,9 @@
 */
 
 :root {
-  --noir: #202426;
-  --vert: #9da65d;
-  --marron: #736355;
-  --beige: #d9ccc5;
-  --blanc: #f2f0f0;
+    --noir: #202426;
+    --blanc: #f2f0f0;
+    --jaune: #d2931e;
 }
 
 /* 1 RESET */
@@ -98,12 +96,12 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 article,
@@ -117,96 +115,106 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+    display: block;
 }
 body {
-  line-height: 1;
+    line-height: 1;
 }
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
-  content: none;
+    content: "";
+    content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* 2 Block */
 
+body {
+    background-color: var(--jaune);
+}
+
 main {
-  padding: 2vw;
+    padding: 2vw;
 }
 
 section {
-  padding: 2vw;
-  position: relative;
+    padding: 2vw;
+    position: relative;
 }
 
 /* 3 inline */
 
 h1 {
-  font-size: 4vw;
-  font-family: "Roboto Mono", monospace;
-  padding: 1vh;
-  text-align: center;
+    font-size: 4vw;
+    font-family: "Roboto Mono", monospace;
+    padding: 1vh;
+    text-align: center;
 }
 
 h2 {
-  font-size: 2vw;
-  font-family: "Roboto Mono", monospace;
-  padding: 0.5vh;
+    font-size: 2vw;
+    font-family: "Roboto Mono", monospace;
+    padding: 0.5vh;
 }
 
 img {
-  max-width: 100%;
-  object-fit: contain;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 p {
-  font-family: "Roboto Mono", monospace;
-  font-size: 1vw;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1vw;
 }
 
 pre {
-  background-color: #0f1214;
-  color: #f5f2e1;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 0.5rem;
-  margin-right: 20rem;
-  margin-left: 7rem;
+    background-color: #0f1214;
+    color: #f5f2e1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    margin-right: 20rem;
+    margin-left: 7rem;
 }
 
 /* 4 ID */
 /* 5 Classes */
 
+.code-line {
+    font-family: "Roboto Mono", monospace;
+    margin-right: 1vw;
+    font-size: 0.5vw;
+}
+
 .lettrine {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 30vh;
-  transform: translate(0, -50%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30vh;
+    transform: translate(0, -50%);
 }
 
 .logo {
-  max-width: 100%;
-  height: 10vh;
-  object-fit: contain;
+    max-width: 100%;
+    height: 10vh;
+    object-fit: contain;
 }
