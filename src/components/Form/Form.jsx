@@ -34,7 +34,7 @@ const Form = () => {
                 <label htmlFor="category">Langage</label>
                 <select {...register("lang")}>
                     <option value="html">Html</option>
-                    <option value="css">Css</option>
+                    <option value="csse">Css</option>
                     <option value="javascript">Javascript</option>
                     <option value="react">React</option>
                     <option value="github">Github</option>
