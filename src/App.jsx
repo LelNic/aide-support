@@ -10,6 +10,12 @@ import Navbar from "./components/Navbar/Navbar";
 import Javascript from "./components/Javascript/Javascript";
 import Reactjs from "./components/Reactjs/Reactjs";
 import Mysql from "./components/Mysql/Mysql";
+import FormJs from "./components/FormJs/FormJs";
+import FormCss from "./components/FomCss/FormCss";
+import FormHtml from "./components/FormHtml/FormHtml";
+import FormReact from "./components/FormReact/FormReact";
+import FormGit from "./components/FormGit/FormGit";
+import FormMysql from "./components/FormMysql/FormMysql";
 // import tuyau from "../src/asset/tuyau.png";
 
 export default function App() {
@@ -18,7 +24,7 @@ export default function App() {
             <Navbar />
             <main className="list">
                 <Switch>
-                    <Route exact path="/home">
+                    <Route exact path="/">
                         <Home />
                     </Route>
                     <Route exact path="/css">
@@ -27,7 +33,7 @@ export default function App() {
                     <Route exact path="/dom">
                         <Dom />
                     </Route>
-                    <Route exact path="/github">
+                    <Route exact path="/git">
                         <Github />
                     </Route>
                     <Route exact path="/html">
@@ -41,6 +47,24 @@ export default function App() {
                     </Route>
                     <Route exact path="/mysql">
                         <Mysql />
+                    </Route>
+                    <Route exact path="/javascript/add">
+                        <FormJs />
+                    </Route>
+                    <Route exact path="/css/add">
+                        <FormCss />
+                    </Route>
+                    <Route exact path="/git/add">
+                        <FormGit />
+                    </Route>
+                    <Route exact path="/react/add">
+                        <FormReact />
+                    </Route>
+                    <Route exact path="/mysql/add">
+                        <FormMysql />
+                    </Route>
+                    <Route exact path="/html/add">
+                        <FormHtml />
                     </Route>
                 </Switch>
             </main>

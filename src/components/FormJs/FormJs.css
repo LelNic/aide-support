@@ -1,0 +1,74 @@
+form {
+    width: 100%;
+    min-height: 50vh;
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h2.header {
+    background: #0f0f0f;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    height: 10vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+}
+
+label {
+    font-family: "Roboto Mono", monospace;
+    font-size: 2vw;
+    padding: 1vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+input {
+    height: 5vh;
+    border: none;
+    outline: none;
+    font-size: 3vh;
+    font-family: "Encode Sans SC", monospace;
+    width: 100%;
+}
+
+textarea {
+    height: 10vh;
+    border: none;
+    outline: none;
+    font-size: 1vw;
+    font-family: "Encode Sans SC", monospace;
+    width: 100%;
+}
+
+.error {
+    color: red;
+    font-family: "Encode Sans SC", monospace;
+    font-size: 1vw;
+    background: white;
+    padding: 0.5vw;
+    width: 100%;
+    text-align: center;
+}
+
+input[type="submit"] {
+    margin-top: 2vh;
+}
+
+select {
+    width: 100%;
+    height: 5vh;
+    font-size: 2vw;
+    font-family: "Encode Sans SC", monospace;
+    text-align: center;
+}

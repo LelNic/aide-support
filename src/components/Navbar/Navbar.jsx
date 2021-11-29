@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <nav>
             <ul className="tab">
-                <Link to="/home">
+                <Link to="/">
                     <li>
                         <img src={Logo} className="logo" alt="logo du site Web Dev Support" />
                     </li>
@@ -41,7 +41,7 @@ const Navbar = () => {
                         <img src={reat} alt="Logo React" />
                     </li>
                 </Link>
-                <Link to="/github">
+                <Link to="/git">
                     <li>
                         <img src={github} alt="Logo Github" />
                     </li>
